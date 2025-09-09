@@ -1,0 +1,66 @@
+:root{
+    --buttonSize: 75px;}
+
+.container {
+    display: flex;
+    width: 100vw;
+    height: 100dvh;
+}
+
+.calculator {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin: auto;
+    padding: 25px;
+    background-color: hsl(180, 100%, 27%);
+    border-radius: 25px;
+    box-shadow: 10px 10px 5px #003235;
+    border-style: ridge;
+    border-color: cadetblue;
+
+}
+
+button {
+    width: var(--buttonSize);
+    height: var(--buttonSize);
+    border-radius: 50%;
+    font-size: larger;
+    font-weight: 900;
+    background-color: #00d0c9;
+    border-color: #eefffc;
+    border-style: solid;
+    box-shadow: 3px 3px 10px black;
+    font-family: "monospace";
+}
+
+.display {
+    text-align: center;
+    font-family: "DM Mono", monospace;
+    font-weight: 300;
+    font-size: 4rem;
+    background-color: lightgray;
+    border-radius: 25px;
+    font-weight: 100;
+    border-style: groove;
+    border-color: black;
+    color: hsl(0, 0%, 19%);
+    border-width: 5px;
+}
+
+.row1, .row2, .row3, .row4, .row5 {
+    display: flex;
+    gap: 15px;
+    
+}
+
+.enter {
+    height: var(--buttonSize);
+    width: stretch;
+    border-radius: var(--buttonSize);
+}
+
+.special {
+        background-color: #c5fffa;
+        border-color: #003235;
+}
