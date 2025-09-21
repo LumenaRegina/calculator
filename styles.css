@@ -5,6 +5,7 @@
     display: flex;
     width: 100vw;
     height: 100dvh;
+    flex: none;
 }
 
 .calculator {
@@ -18,6 +19,7 @@
     box-shadow: 10px 10px 5px #003235;
     border-style: ridge;
     border-color: cadetblue;
+    flex: none;
 
 }
 
@@ -46,6 +48,11 @@ button {
     border-color: black;
     color: hsl(0, 0%, 19%);
     border-width: 5px;
+    width: 335px;
+    min-height: 83px;
+    overflow: auto;
+    scrollbar-width: thin;
+    scrollbar-color: darkgrey transparent;
 }
 
 .row1, .row2, .row3, .row4, .row5 {
@@ -63,4 +70,10 @@ button {
 .special {
         background-color: #c5fffa;
         border-color: #003235;
+}
+
+.clear {
+    background-color: crimson;
+    border-color: darkred;
+    color: white;
 }
